@@ -12,6 +12,7 @@ import creator4 from "../assets/creator/images.jpeg";
 import creator5 from "../assets/creator/images.png";
 
 import preview2 from "../assets/video/health2.mp4";
+import preview1 from "../assets/video/health1.mp4";
 
 const data = [
   {
@@ -23,7 +24,7 @@ const data = [
     },
     thumbnail: image1,
     duration: "11:45",
-    previewVideo: preview2,
+    previewVideo: preview1,
   },
   {
     id: "2",
@@ -45,7 +46,7 @@ const data = [
     },
     thumbnail: image3,
     duration: "32:00",
-    previewVideo: preview2,
+    previewVideo: preview1,
   },
   {
     id: "4",
@@ -67,7 +68,7 @@ const data = [
     },
     thumbnail: image5,
     duration: "08:44",
-    previewVideo: preview2,
+    previewVideo: preview1,
   },
   {
     id: "6",
@@ -89,7 +90,7 @@ const data = [
     },
     thumbnail: image1,
     duration: "05:42",
-    previewVideo: preview2,
+    previewVideo: preview1,
   },
   {
     id: "8",
