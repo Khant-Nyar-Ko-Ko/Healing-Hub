@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="sticky top-0 left-0 z-50 flex items-center justify-between w-screen px-6 py-4 bg-white shadow-sm select-none ">
+    <nav className="sticky top-0 left-0 z-50 flex items-center justify-between w-screen px-10 py-4 bg-white shadow-sm select-none ">
       <NavLink to="/">
         <h2 className="text-2xl font-semibold text-primary">Healing Hub</h2>
       </NavLink>
