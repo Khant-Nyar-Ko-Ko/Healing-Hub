@@ -107,7 +107,7 @@ const data = [
 
 const VideoSection = () => {
   return (
-    <div className="grid items-center justify-center grid-cols-4 gap-10 px-[140px]">
+    <div className="grid items-center justify-center grid-cols-4 gap-10 px-[140px] p-8">
       {data?.map((item) => (
         <VideoCard key={item?.id} item={item} />
       ))}
