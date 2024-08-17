@@ -47,9 +47,6 @@ const VideoCard = ({ item }: { item: any }) => {
             {item.title}
           </h3>
           <p className="text-xs text-gray-500">{item.channel.name}</p>
-          <p className="text-xs text-gray-500">
-            {item.views} views • {item.uploadedAt}
-          </p>
         </div>
       </div>
     </div>
