@@ -13,7 +13,6 @@ import creator5 from "../assets/creator/images.png";
 
 import preview1 from "../assets/video/health1.mp4";
 import preview2 from "../assets/video/health2.mp4";
-import preview3 from "../assets/video/health3.mp4";
 
 const data = [
   {
@@ -47,7 +46,7 @@ const data = [
     },
     thumbnail: image3,
     duration: "32:00",
-    previewVideo: preview3,
+    previewVideo: preview1,
   },
   {
     id: "4",
@@ -80,7 +79,7 @@ const data = [
     },
     thumbnail: image6,
     duration: "12:42",
-    previewVideo: preview3,
+    previewVideo: preview1,
   },
   {
     id: "7",
