@@ -27,6 +27,7 @@ const VideoCard = ({ item }: { item: any }) => {
             className="object-cover w-full h-40 rounded-lg"
           />
         )}
+        {/* Video Duration */}
         <span className="absolute px-1 text-xs text-white bg-black rounded bottom-2 right-2">
           {item.duration || "N/A"}
         </span>
