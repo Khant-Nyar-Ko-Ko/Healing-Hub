@@ -2,6 +2,7 @@ import PsychiatristProfile from "@/components/PsychiatristProfile";
 import PsychiatristSection from "@/components/PsychiatristSection";
 import { IoIosSend } from "react-icons/io";
 import profile from "../../assets/blank-profile-picture-973460_1280.webp";
+import { NavLink } from "react-router-dom";
 
 const reviews = [
   {
@@ -49,11 +50,16 @@ const ChatPage = () => {
       </div>
       <div className="relative w-3/4">
         <PsychiatristProfile />
-        <button className="flex items-center gap-1 px-4 py-2 text-white rounded-full bg-primary hover:bg-hover mx-[400px] absolute top-[230px]">
-          <IoIosSend /> <span>Send Message</span>{" "}
-        </button>
+        <NavLink to="/direct-chat">
+          <button className="flex items-center gap-1 px-4 py-2 text-white rounded-full bg-primary hover:bg-hover mx-[400px] absolute top-[230px]">
+            <IoIosSend /> <span>Send Message</span>{" "}
+          </button>
+        </NavLink>
+
         <div className="p-4 bg-white rounded-lg shadow-md">
-          <h2 className="mb-4 text-xl font-semibold text-primary">Patient Reviews</h2>
+          <h2 className="mb-4 text-xl font-semibold text-primary">
+            Patient Reviews
+          </h2>
           <div className="space-y-4 overflow-y-scroll h-[200px]">
             {reviews.map((review) => (
               <div

@@ -63,8 +63,14 @@ const CommunityPage = () => {
   return (
     <div className="flex flex-col gap-4 my-4">
       <div className="flex gap-2">
-      <input type="text" placeholder="What is on your mind?" className=" ml-[400px] w-[300px] px-4 py-2 border rounded" />
-      <button className="px-4 py-2 text-white rounded bg-primary">Upload</button>
+        <input
+          type="text"
+          placeholder="What is on your mind?"
+          className=" ml-[400px] w-[300px] px-4 py-2 border rounded"
+        />
+        <button className="px-4 py-2 text-white rounded bg-primary">
+          Upload
+        </button>
       </div>
       {users.map((user) => (
         <PostCard key={user.id} user={user} />
