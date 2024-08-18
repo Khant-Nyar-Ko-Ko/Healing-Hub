@@ -1,4 +1,5 @@
 import Chat from "@/components/Chat";
+import EmptyChat from "@/components/EmptyChat";
 import PatientLayout from "@/layouts/PatientLayout";
 import ChatPage from "@/pages/patient/ChatPage";
 import CommunityPage from "@/pages/patient/CommunityPage";
@@ -29,6 +30,10 @@ const PatientRouter: RouteObject[] = [
       {
         path: "direct-chat",
         element: <Chat/>
+      },
+      {
+        path: "empty-chat",
+        element: <EmptyChat/>
       }
     ],
   },

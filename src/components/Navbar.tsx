@@ -19,7 +19,7 @@ const Navbar = () => {
         <NavLink to="/">
           <button className="text-primary">Home</button>
         </NavLink>
-        <NavLink to="/chat">
+        <NavLink to="/empty-chat">
           <button className="text-primary">Chat</button>
         </NavLink>
         <NavLink to="/community">

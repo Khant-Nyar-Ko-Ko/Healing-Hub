@@ -2,6 +2,7 @@ import { FaStar } from "react-icons/fa";
 import doctor1 from "../assets/doctors/download (1).jpeg";
 import doctor2 from "../assets/doctors/download (2).jpeg";
 import doctor3 from "../assets/doctors/download.jpeg";
+import { NavLink } from "react-router-dom";
 
 // Sample data for chat list
 const chatData = [
@@ -67,6 +68,7 @@ const ChatList = () => {
   return (
     <div className="mx-4 my-6 overflow-hidden bg-white rounded-lg shadow-lg w-80">
       <div className="overflow-y-auto h-[450px]">
+        <NavLink to="/chat">
         {chatData.map((chat) => (
           <div
             key={chat.id}
@@ -92,6 +94,7 @@ const ChatList = () => {
             </div>
           </div>
         ))}
+        </NavLink>
       </div>
     </div>
   );
