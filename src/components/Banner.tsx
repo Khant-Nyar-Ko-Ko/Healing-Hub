@@ -46,7 +46,7 @@ const Banner = () => {
           with support every step of the way
         </motion.p>
 
-        <NavLink to="/chat">
+        <NavLink to="/empty-chat">
           <motion.button
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
