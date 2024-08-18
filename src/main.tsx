@@ -6,8 +6,10 @@ import { BrowserRouter } from "react-router-dom";
 
 createRoot(document.getElementById("root")!).render(
   <BrowserRouter>
+  {/* <TokenContext> */}
     <StrictMode>
       <App />
+  {/* </TokenContext> */}
     </StrictMode>
   </BrowserRouter>
 );

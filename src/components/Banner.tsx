@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <>
       {" "}
-      <div className=" w-screen h-[500px] absolute bg-primary opacity-20 z-10"></div>
+      <div className=" w-screen h-[500px] absolute bg-primary opacity-10 z-10"></div>
       <div className=" w-screen h-[500px] z-20 absolute">
         <h2 className="absolute top-[30%] left-[12%] text-primary text-4xl font-bold font-serif">
           Healing Hub
